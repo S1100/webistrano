@@ -1,13 +1,18 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.2.8'
+gem 'rb-readline'
+gem 'mysql', '2.8.1'
+gem 'thin'
+gem 'execjs'
+gem 'therubyracer'
 
 gem 'exception_notification'
 
 gem 'capistrano', '~> 2.13'
 gem 'open4',      '0.9.3'
 gem 'syntax',     '1.0.0'
-gem 'version_fu', :github => 'jmckible/version_fu'
+#gem 'version_fu', :github => 'jmckible/version_fu'
 gem 'devise'
 gem 'devise-encryptable'
 gem 'haml'
@@ -59,5 +64,5 @@ group :assets do
   gem 'sass-rails'
   gem 'coffee-rails'
 
-  gem 'twitter-bootstrap-rails', :github => 'seyhunak/twitter-bootstrap-rails'
+#  gem 'twitter-bootstrap-rails', :github => 'seyhunak/twitter-bootstrap-rails'
 end
